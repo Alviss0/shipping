@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #ffffff;
+}
+header, nav, section, aside, footer, article {
+    display: block;
+    overflow: hidden;
+}
+#main {
+    width: 820px;
+    margin: 10px auto 0px auto;
+    background-color: #FFFFff;
+    
+}
+#main > header {
+    background-image: url('../img/fon.jpg');
+    height: 127px;
+     border-right-style: solid;
+     border-bottom-style: solid;
+    border-right-width: 2px;
+    border-right-color: #C0C0C0;
+    border-bottom-color: #2f4ebc;
+}
+aside {
+    width: 247px;
+    float: left;
+    padding-left: 10px;
+    height: 500px;    
+}
+#main > section{
+   
+    background-image: url('../img/menu_fon.jpg');
+    background-repeat: repeat-y;
+     border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #C0C0C0;
+}
+
+section section {
+    
+    width: 540px;
+    float: right;
+    padding-right: 5px;
+    height: 500px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 5px black;
+    border: 2px solid #C0C0C0;
+    border-radius: 20px;
+}
+aside li{
+    font-family: "Times New Roman", Times, serif;
+    color: #d2dce8;
+    font-weight: bold;
+    padding-left: 20px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+a {
+	text-decoration: none;
+	color: #d2dce8;
+}
+a:hover {
+	color: #d2f7fe;
+}
+h1 {
+	font-size: 18pt;
+	color: #2040ae;
+	font-style: italic;
+	font-family: georgia, "book antiqua",  "times new roman", serif;
+	letter-spacing: -1px;
+	margin: 0px 0px 10px 20px;
+	text-align: right;
+}
+p {
+	font-size: 11pt;
+	font-family: "times new roman", serif;
+	text-align: justify;
+	margin: 10px 5px 10px 10px;
+}
+article img{
+    margin:5px;
+}
+footer{
+    clear: both;
+   
+    height: 30px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #C0C0C0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 2px;
+    color: #808080;
+}
